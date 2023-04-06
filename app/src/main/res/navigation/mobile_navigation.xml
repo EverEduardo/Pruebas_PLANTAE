@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.uv.pruebas_plantae.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.uv.pruebas_plantae.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.uv.pruebas_plantae.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_plagas"
+        android:name="com.uv.pruebas_plantae.ui.Plagas.PlagasFragment"
+        android:label="@string/title_plagas"
+        tools:layout="@layout/fragment_plagas" />
+
+    <fragment
+        android:id="@+id/navigation_objetivos"
+        android:name="com.uv.pruebas_plantae.ui.Objetivos.Objetivos"
+        android:label="@string/title_objetivos"
+        tools:layout="@layout/fragment_objetivos" />
+
+</navigation>

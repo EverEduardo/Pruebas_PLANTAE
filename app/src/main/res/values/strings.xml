@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pruebas_PLANTAE</string>
+    <string name="title_activity_barra_navegacion">Barra_navegacion</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Mis Plantas</string>
+    <string name="title_notifications">Tareas</string>
+    <string name="title_plagas">Plagas</string>
+    <string name="title_objetivos">Objetivos</string>
+</resources>
