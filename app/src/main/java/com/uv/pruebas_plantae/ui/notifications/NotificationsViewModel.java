@@ -10,7 +10,7 @@ public class NotificationsViewModel extends ViewModel {
 
     public NotificationsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        //mText.setValue("This is notifications fragment"); (esto es el texto por defecto en la pantalla)
     }
 
     public LiveData<String> getText() {
