@@ -9,14 +9,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="110dp"
-        android:layout_height="47dp"
+        android:layout_width="149dp"
+        android:layout_height="40dp"
         android:text="Bienvenido"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.349" />
@@ -26,7 +27,7 @@
         android:layout_width="266dp"
         android:layout_height="45dp"
         android:ems="10"
-        android:hint="Correo"
+        android:hint="Usuario"
         android:inputType="textPersonName"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
